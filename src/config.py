@@ -1,0 +1,13 @@
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = PROJECT_ROOT / "data"
+RAW_DIR = DATA_DIR / "raw"
+RAWT_DIR = RAW_DIR / "15mps"
+PROCESSED_DIR = DATA_DIR / "processed"
+PROCESSEDT_DIR = PROCESSED_DIR / "15mps"
+REPORTS_DIR = PROJECT_ROOT / "reports"
+FIGS_DIR = REPORTS_DIR / "figs"
+
+C_CHORD_M = 0.3048
+B_SPAN_M = 0.3048
+
+A1_OVER_A2 = 9.5

@@ -37,7 +37,7 @@ EXPECTED_COLS = [
 ] + SCAN_COLS
 
 # Geometry file (must be in data/raw/)
-GEOM_FILENAME = "port_locations.xlsx"  # columns: port,x_m,y_m,side ('upper'/'lower')
+GEOM_FILENAME = "port_geometry.csv"  # columns: port,x_m,y_m,side ('upper'/'lower')
 
 
 
